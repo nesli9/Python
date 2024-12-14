@@ -218,7 +218,32 @@ set1 - set2
 set2 - set1
 
 
+set1.intersection(set2)
 
+kesisim = set1 & set2
+kesisim
+
+
+set1.union(set2)
+
+set1.intersection_update(set2) #kesisimdeki ifadeler artık set1 in elamanları olmuş olur
+
+set1
+
+#-----------------------------------------
+
+
+set1 = set([7,8,9])
+set2 = set([5,6,7,8,9])
+
+
+#---------------------
+
+set1.isdisjoint(set2)
+
+set1.issubset(set2)
+
+set1.issuperset(set2)
 
 
 
